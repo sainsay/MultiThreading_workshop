@@ -3,6 +3,8 @@
 #include <string_view>
 #include <array>
 
+// race conditions
+
 class Counter
 {
 public:

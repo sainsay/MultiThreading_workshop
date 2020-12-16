@@ -1,6 +1,7 @@
 #include <thread>
 #include <iostream>
 
+// thread detachment
 
 void Task1(){
 	std::this_thread::sleep_for( std::chrono::seconds( 2 ) );

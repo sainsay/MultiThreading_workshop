@@ -5,6 +5,8 @@
 #include <mutex>
 #include <vector>
 
+// thread data transfer. buffers
+
 class Resource
 {
 public:

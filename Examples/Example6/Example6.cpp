@@ -4,6 +4,9 @@
 #include <array>
 #include <mutex>
 
+// mutex. solve race conditions
+
+
 //#define ALTERNATIVE
 
 class Counter

@@ -4,6 +4,8 @@
 #include <array>
 #include <mutex>
 
+// thread data transfer. receiver waits
+
 class Resource
 {
 public:
