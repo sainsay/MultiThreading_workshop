@@ -39,7 +39,7 @@ int main( int argn, char** args ){
 	Deadlock deadlock_a;
 	Deadlock deadlock_b;
 
-	std::array<std::thread, 5> my_threads
+	std::array<std::thread, 2> my_threads
 	{
 		std::thread( Task1, &deadlock_a, &deadlock_b ),
 		std::thread( Task2, &deadlock_a, &deadlock_b ),

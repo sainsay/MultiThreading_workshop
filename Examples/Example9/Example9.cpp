@@ -63,7 +63,7 @@ int main( int argn, char** args ){
 
 	Resource res;
 
-	std::array<std::thread, 5> my_threads
+	std::array<std::thread, 2> my_threads
 	{
 		std::thread( Task1, &res ),
 		std::thread( Task2, &res ),
